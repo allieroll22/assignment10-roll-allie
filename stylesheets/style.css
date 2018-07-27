@@ -28,3 +28,21 @@ textarea {
   background-color: #C6C5C5;
   width: 500px;
 }
+
+/*Radio Button*/
+.radiobutton {
+  font-size: 30px;
+  color:white;
+  padding-bottom: 8px;
+}
+
+.radiobutton p {
+  margin-bottom: 6px;
+}
+
+input[type="radio"] {
+  max-width: 20px;
+  vertical-align: middle;
+  display: inline-grid;
+  margin-top: 0;
+}
