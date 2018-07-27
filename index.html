@@ -23,54 +23,55 @@
 		<header>
 			<h1>Get in Touch</h1>
 		</header>
+
+		<main>
+			<section class="form">
+				<form class="contact" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+					<div class="first-name">
+						<label for="firstname" class="label_input_wrap">First Name:</label>
+						<input type="text" name="firstname" id="firstname" />
+					</div>
+
+					<div class="last-name">
+						<label for="lastname" class="label_input_wrap">Last Name:</label>
+						<input type="text" name="lastname" id="lastname" />
+					</div>
+
+					<div class="email">
+						<label for="email" class="label_input_wrap">Email:</label>
+						<input type="email" name="email" id="email"/>
+					</div>
+
+					<div class="telephone">
+						<label for="telephone" class="label_input_wrap">Telephone:</label>
+						<input type="tel" name="telephone" id="telephone" />
+					</div>
+
+					<div class="comments">
+						<label for="comments" id="comments" class="label_input_wrap">Comments:</label>
+						<textarea name="comments" maxlength="1000" cols="60" rows="15"></textarea>
+					</div>
+
+					<div class="radiobutton">
+						<p>Preferred Contact Method</p>
+						<input type="radio" name="contact" value="phone" id="phone"/><label for="phone">Phone</label>
+						<input type="radio" name="contact" value="phone" id="mail"/><label for="mail">Email</label>
+					</div>
+
+					<div class="dropdown">
+						<label for="question" class="label_input_wrap">Would you like an email?</label>
+						<select name="question" id="question">
+							<option value="yes">Yes</option>
+							<option value="no">No</option>
+						</select>
+					</div>
+
+					<div class="submit">
+						<input type="submit"/>
+					</div>
+				</form>
+			</section>
+
+		</main>
 	</body>
-
-	<main>
-		<section class="form">
-			<form class="contact" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
-				<div class="first-name">
-					<label for="firstname" class="label_input_wrap">First Name:</label>
-					<input type="text" name="firstname" id="firstname" />
-				</div>
-
-				<div class="last-name">
-					<label for="lastname" class="label_input_wrap">Last Name:</label>
-					<input type="text" name="lastname" id="lastname" />
-				</div>
-
-				<div class="email">
-					<label for="email" class="label_input_wrap">Email:</label>
-					<input type="email" name="email" id="email"/>
-				</div>
-
-				<div class="telephone">
-					<label for="telephone" class="label_input_wrap">Telephone:</label>
-					<input type="telephone" name="telephone" id="telephone" />
-				</div>
-
-				<div class="comments">
-					<label for="comments" class="label_input_wrap">Comments:</label>
-					<textarea name="comments" maxlength="1000" cols="60" rows="15"></textarea>
-				</div>
-
-				<div class="radiobutton">
-					<p>Preferred Contact Method</p>
-					<input type="radio" name="contact" value="phone" id="phone"/><label for="phone">Phone</label>
-					<input type="radio" name="contact" value="phone" id="mail"/><label for="mail">Email</label>
-				</div>
-
-				<div class="dropdown">
-					<label for="question" class="label_input_wrap">Would you like an email?</label>
-					<select name="question" id="question">
-						<option value="yes">Yes</option>
-						<option value="no">No</option>
-					</select>
-				</div>
-
-				<div class="submit">
-					<input type="submit"/>
-				</div>
-			</form>
-		</section>
-	</main>
 </html>
