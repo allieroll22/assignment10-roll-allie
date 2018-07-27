@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   text-align: center;
+	background-color: black;
 }
 
 h1 {
