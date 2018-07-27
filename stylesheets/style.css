@@ -12,3 +12,11 @@ header {
   padding: 0px;
   color: white;
 }
+
+label.label_input_wrap {
+  display: block;
+  vertical-align: top;
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
