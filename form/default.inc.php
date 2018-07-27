@@ -21,4 +21,4 @@ p {
 <body>
   <h1>Sorry, something went wrong with your submission</h1>
   <p>Please try again</p>
-</body>inventpartners.com">Invent Partners Web Design York</a>.</p>
+</body>
