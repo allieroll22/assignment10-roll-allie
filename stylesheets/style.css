@@ -46,3 +46,13 @@ input[type="radio"] {
   display: inline-grid;
   margin-top: 0;
 }
+
+/*Dropdown Menu */
+select {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  background-color: #C6C5C5;
+  font-size: 20px;
+}
