@@ -13,7 +13,7 @@ $form->processForm(
 	,
 	'allieroll22@ufl.edu' // Where will the form notification be sent?
 	,
-	'forms@inventpartners.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
+	'allieroll22@ufl.edu' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
 
 );
 
