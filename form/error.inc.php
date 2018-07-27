@@ -1,3 +1,24 @@
+<style type="text/css">
+
+body {
+  background-image: url("../images/background.png");
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-size: 25px;
+  color: white;
+}
+</style>
+
+
 <h1>Missing fields</h1>
 <p>Sorry, you have not completed all of the required fields.</p>
 <p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
