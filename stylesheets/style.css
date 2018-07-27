@@ -56,3 +56,13 @@ select {
   background-color: #C6C5C5;
   font-size: 20px;
 }
+
+/*submit button style*/
+input[type= "submit"] {
+  padding:10px 40px;
+  margin: 30px 5px;
+  background-color: #C6C5C5;
+  color: black;
+  border: none;
+  font-size: 26px;
+}
