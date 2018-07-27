@@ -20,3 +20,11 @@ label.label_input_wrap {
   font-size: 30px;
   color: white;
 }
+
+input,
+textarea {
+  border: 1px solid black;
+  padding: 9px 11px;
+  background-color: #C6C5C5;
+  width: 500px;
+}
