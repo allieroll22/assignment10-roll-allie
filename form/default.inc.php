@@ -1,7 +1,7 @@
 <style type="text/css">
 
 body {
-  background-image: url("../images/background.png");
+  background-image: url("images/background.png");
   background-attachment: fixed;
   background-position: center;
   text-align: center;
